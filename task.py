@@ -1,9 +1,9 @@
 def temperature_converter(temp,unit):
     if unit =="C":
-        temp = (temp * (9/5)) + 32
+        temp = (temp * 1.8) + 32
         unit = " F"
     elif unit == "F":
-        temp = (temp - 32) / (5/9)
+        temp = (temp - 32) / 1.8
         unit = " C"
     temp = int(temp)
     temp = str(temp)
@@ -27,7 +27,7 @@ def fib(N):
             num2 = hold
             count = count + 1
         return num2
-print(temperature_converter(32,"F"))
+
 
 
 
