@@ -13,7 +13,7 @@ def reverse(string):
     string = string [::-1]
     return string
 
-def Fibonacci(N):
+def fib(N):
     count = 0
     hold = 0
     num1 = 0
@@ -27,5 +27,6 @@ def Fibonacci(N):
             num2 = hold
             count = count + 1
         return num2
+
 
 
