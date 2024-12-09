@@ -19,6 +19,7 @@ def fib(N):
     num1 = 0
     num2 = 1
     if N == 0:
+        
         return N
     else:
         while count < (N - 1):
